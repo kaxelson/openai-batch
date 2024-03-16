@@ -39,7 +39,7 @@ const argv = yargv
 		Any additional fields specified in the input file will have no effect on processing and will be copied to the
 		output file without modification.
 
-		Please make sure to specify you OpenAI API key in an environment variable called OPENAI_APIKEY.
+		Please make sure to specify your OpenAI API key in an environment variable called OPENAI_APIKEY.
 		This can also be done by adding a file called .env to your working directory and including a line like this:
 		
 		OPENAI_APIKEY=<Your OpenAI API key>
