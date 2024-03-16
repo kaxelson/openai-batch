@@ -1,7 +1,7 @@
 Process a batch of OpenAI chat completion requests. The requests must be specified in a csv file <infile> with
 two fields named "system" and "user". The contents of these fields will be used as the content of the system
 message and the user message sent to OpenAI as part of the chat completion request. Results will be written to
-<outfile> which will be a csv containing the fields "system", "user", and "assistant" with the response from
+an output file which will be a csv containing the fields "system", "user", and "assistant" with the response from
 OpenAI contained in the "assistant" field.
 
 Any additional fields specified in the input file will have no effect on processing and will be copied to the
