@@ -12,6 +12,8 @@ This can also be done by adding a file called .env to your working directory and
 
 `OPENAI_APIKEY=<Your OpenAI API key>`
 
+In order to use this program, make sure you have NodeJS and npm installed.  It is recommended to use NodeJS 20.
+
 After cloning the repo, download all dependencies by running:
 `npm install`
 
