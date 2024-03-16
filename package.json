@@ -1,0 +1,36 @@
+{
+  "name": "openai-batch",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "openai-batch": "node ./src/index.js"
+  },
+  "author": "kaxelson@gmail.com<Knute Axelson>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "atomic-sleep": "^1.0.0",
+    "axios": "^1.2.1",
+    "common-tags": "^1.8.2",
+    "csv-parse": "^5.3.3",
+    "csv-stringify": "^6.2.3",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.1.0",
+    "mssql": "^9.1.1",
+    "mustache": "^4.2.0",
+    "node-cache": "^5.1.2",
+    "openai": "^4.28.0",
+    "p-map": "^5.5.0",
+    "p-retry": "^6.2.0",
+    "ramda": "^0.29.0",
+    "stream-transform": "^3.2.1",
+    "stream-transforms": "^0.0.3",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.32"
+  },
+  "type": "module"
+}
+
