@@ -12,7 +12,10 @@ This can also be done by adding a file called .env to your working directory and
 
 `OPENAI_APIKEY=<Your OpenAI API key>`
 
-Run like this:
+After cloning the repo, download all dependencies by running:
+`npm install`
+
+Then, you can run the program like this:
 `openai-batch -i <your input file>`
 
 For usage instructions, run like this:
